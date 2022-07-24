@@ -33,7 +33,7 @@ services:
     container_name: front
     build: ./front
     ports:
-      - 4200:8080
+      - "4200:4200"
     volumes:
       - ./front/angular_project:/app:cached
     stdin_open: true
