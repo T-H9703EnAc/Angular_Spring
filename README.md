@@ -21,6 +21,8 @@ ng new "APP NAME"
 
 ```
 docker exec -it front /bin/bash
+docker exec -it back /bin/bash
+docker exec -it mysql /bin/bash
 ```
 
 ```
