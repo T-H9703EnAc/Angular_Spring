@@ -20,7 +20,7 @@ ng new "APP NAME"
 ```
 
 ```
-docker exec -it angular /bin/bash
+docker exec -it front /bin/bash
 ```
 
 ```
