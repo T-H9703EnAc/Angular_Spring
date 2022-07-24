@@ -1,0 +1,17 @@
+{
+    "name": "spring-angular-mysql",
+    "workspaceFolder": "/app",
+    "dockerComposeFile": "../docker-compose.yml",
+    "settings": { 
+        // Macの場合
+        "terminal.integrated.defaultProfile.osx": "/bin/bash" 
+        // Windows(WSL)の場合(おそらく・・・動作確認はしていません。)
+        // "terminal.integrated.defaultProfile.linux": "/bin/bash",        
+    },
+    "service": "back", //attachするコンテナはbackを指定
+    "extensions": [
+        "vscjava.vscode-java-pack", // JavaExtensionPack
+        "pivotal.vscode-boot-dev-pack", // Spring Boot Extension Pack
+        "gabrielbb.vscode-lombok" //Lombok Annotations Support For VS Code
+    ]
+}
